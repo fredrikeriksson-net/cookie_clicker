@@ -1,0 +1,199 @@
+
+/*
+
+* The Clicker
+-----------------------------------
+	*CH1 Tyopgraphy
+	*CH2 Page Structure
+	*CH3 Content & Media
+-----------------------------------
+*/
+
+/* 
+*CH1 Tyopgraphy
+--------------------------*/
+
+h1 {
+	color: #426968;
+	font: 18px 'Inconsolata', monospace;
+}
+
+h2 {
+	color: #426968;
+	font: 14px 'Inconsolata', monospace;
+}
+
+span {
+	background-color: #181818;
+	color: #72b7be;
+}
+
+p {
+	color: #426968;
+	font: 11px 'Inconsolata', monospace;
+	letter-spacing: 0.8px
+}
+
+
+/*
+*CH2 Page Structure
+--------------------------*/
+
+body {
+	background: #111;
+}
+
+#app {
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+
+#upgradeButtons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#upgradeButtons > div {
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+
+/*
+*CH4 Content & Media
+--------------------------*/
+
+hr {
+	background-color: #1f1f1f;
+	border: none;
+	height: 1px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button {
+	border: 0;
+	color: #000;
+	font-family: 'Inconsolata', monospace;
+	font-size: 11px;
+	margin-bottom: 5px;
+	padding: 3px;
+}
+
+/* Clicker button */
+.clickerButton {
+	background-color: #222222;
+}
+
+.clickerButton:active {
+	background-color: #393939;
+	color: #FFF;
+}
+
+.clickerButton:focus {
+	outline:0;
+}
+
+
+/* Upgrades button one */
+.upOneButton {
+	background-color: #b93b3b;
+}
+
+.upOneButton:disabled {
+	background-color: #491d10;
+}
+
+/* Upgrades button two */
+.upTwoButton {
+	background-color: #43b93b;
+}
+
+.upTwoButton:disabled {
+	background-color: #134911;
+}
+
+/* Upgrades button three */
+.upThreeButton {
+	background-color: #b9813b;
+}
+
+.upThreeButton:disabled {
+	background-color: #493211;
+}
+
+/* Upgrades button four */
+.upFourButton {
+	background-color: #463bb9;
+}
+
+.upFourButton:disabled {
+	background-color: #121149;
+}
+
+/* Upgrades button five */
+.upFiveButton {
+	background-color: #b4b93b;
+}
+
+.upFiveButton:disabled {
+	background-color: #484911;
+}
+
+
+/* Upgrade in play */
+#boxOne, #boxTwo, #boxThree, #boxFour, #boxFive {
+	display: inline-block;
+	height: 10px;
+	margin: 10px;
+	width: 10px;
+}
+
+#boxOne {
+	background-color: #b93b3b;
+}
+
+
+#boxTwo {
+	background-color: #43b93b;
+}
+
+#boxThree {
+	background-color: #b9813b;
+}
+
+#boxFour {
+	background-color: #463bb9;
+}
+
+#boxFive {
+	background-color: #b4b93b;
+}
+
+@media screen and (min-width: 485px) {
+
+/*
+*CH2 Page Structure
+--------------------------*/
+
+	#app {
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+
+	#upgradeButtons {
+		flex-direction: row;
+
+	}
+
+	#upgradeButtons > div {
+		margin-right: 50px;
+	}
+
+}
+
+
